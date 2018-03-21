@@ -1,0 +1,34 @@
+{
+  "basics":{
+    "photo":"s1.jpg",
+    "name":"tanuja",
+    "email":"tanuchitti24@gmail.com",
+    "mobile":"8309149900"
+  }
+,
+"education":[
+  {
+    "course":"B.tech(computer science and engineering)",
+    "college":["g.pullaiah college of engineering and technology",
+    "2017-2019",
+    "65"
+  ]
+},
+{
+  "course":"intermediate(m.p.c)",
+  "college":["srichaitnya college",
+  "2014-2015",
+  "85"
+]
+},
+
+{
+  "course":"ssc(m.p.c)",
+  "college":["keshava reddy school",
+  "2013-2014",
+  "95"
+]
+
+}
+]
+}
