@@ -4,8 +4,7 @@
     "name":"tanuja",
     "email":"tanuchitti24@gmail.com",
     "mobile":"8309149900"
-  }
-,
+  },
 "education":[
   {
     "course":"B.tech(computer science and engineering)",
@@ -30,5 +29,22 @@
 ]
 
 }
+],
+"skills":[
+  {
+    "name":"web and internet technologies",
+    "value":"HTML,CSS"
+
+  },
+  {
+    "name":"operating system",
+    "value":"Linux,Windows"
+  },
+  {
+    "name":"programming Languages",
+    "value":"c,c++,java"
+
+
+  }
 ]
 }

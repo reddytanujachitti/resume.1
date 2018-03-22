@@ -15,10 +15,11 @@ function jsondata(file,callback) {
       console.log(data);
 ba(data.basics);
 educa(data.education);
+skill(data.skills);
     })
     //main div class calling from html
 
-    var main=document.getElementById('main');
+    var main=document.querySelector(".main");
 
     //left div ceation
     var left=document.createElement("div");
@@ -27,6 +28,7 @@ educa(data.education);
     left.setAttribute("id","left");
     //appending to main div
     main.appendChild(left);
+
 function ba(basic){
 var img=document.createElement("img");
 img.src=basic.photo;
@@ -65,10 +67,26 @@ for(i in education){
   for(j in education[i].college){
     var li=document.createElement("li");
     li.textContent=education[i].college[j];
-  }
+
   edu.appendChild(e1);
   e1.appendChild(ul);
     ul.appendChild(li);
+  }
 }
+}
+function skill(skills)
+{
+  var skill_title=document.createElement("h1");
+  skill_title.textContent="skill_set:";
+  //skill_title.appendChild(document.createElement(HR))
+  right.appendChild(skill_title);
+  var table=document.createElement("table");
+  table.classList.add("table");
+  skill_title.appendChild(table);
+  var row="";
+  for(var i = 0; i < skills.length; i++){
+    row+="<tr><td>"+skills[i].name+"</td><td>"+skills[i].value+"</td><tr>";
+  }
+  table.innerHTML=row;
 
 }
